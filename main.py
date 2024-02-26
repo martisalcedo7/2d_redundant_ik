@@ -76,9 +76,9 @@ def main():
         # Clear screen
         screen.fill(black)
         # Draw lines
-        pygame.draw.line(screen, red, x_pos[0], x_pos[1])
-        pygame.draw.line(screen, green, x_pos[1], x_pos[2])
-        pygame.draw.line(screen, blue, x_pos[2], x_pos[3])
+        pygame.draw.line(screen, red, x_pos[0], x_pos[1], 3)
+        pygame.draw.line(screen, green, x_pos[1], x_pos[2], 3)
+        pygame.draw.line(screen, blue, x_pos[2], x_pos[3], 3)
         # Show drawn objects
         pygame.display.flip()
 

@@ -56,6 +56,7 @@ class Robot():
             x_inc = x_d - x_current
 
             if counter > 100:
+                print("Target error not reached.")
                 break
 
             counter += 1
@@ -89,6 +90,7 @@ class Robot():
             x_inc = x_d - x_current
 
             if counter > 100:
+                print("Target error not reached.")
                 break
 
             counter += 1
@@ -118,6 +120,7 @@ class Robot():
             x_inc = x_d - x_current
 
             if counter > 100:
+                print("Target error not reached.")
                 break
 
             counter += 1
